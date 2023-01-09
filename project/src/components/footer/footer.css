@@ -12,8 +12,8 @@
 }
 
 .btn4 {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
   width: 100%;
   margin-top: 30px;
   height: 40px;
@@ -22,4 +22,31 @@
   cursor: pointer;
   color: blue;
   margin-left: -100%;
+}
+
+@media screen and (max-width:840px) {
+  .footerdiv {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 1px solid; */
+  }
+  h3{
+    font-size: 15px;
+  }
+  
+.btn4 {
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 30px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: blue;
+  margin-left: -100%;
+}
+  
+  
 }
